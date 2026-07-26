@@ -19,8 +19,8 @@ const BOARDS=[
    {ic:'w4',n:'s.2 admission'},{ic:'w5',n:'s.3 admission'},{ic:'w6',n:'Tribunal hearing'},{ic:'w7',n:'Discharge'}]},
  {name:'The court',short:'The court',chain:'Up to the Court of Appeal',scene:'court',
   cols:4,rows:4,base:7,level:3,topic:'Court of Protection',
-  items:[{ic:'t1',n:'Letter of concern'},{ic:'t5',n:'s.21A challenge'},{ic:'t2',n:'COP1 application'},
-   {ic:'t3',n:'COP3 evidence'},{ic:'t4',n:'Directions order'},{ic:'t6',n:'Final order'},
+  items:[{ic:'t1',n:'Letter of concern'},{ic:'t2',n:'COP1 application'},{ic:'t3',n:'COP3 evidence'},
+   {ic:'t5',n:'s.21A challenge'},{ic:'t4',n:'Directions order'},{ic:'t6',n:'Final order'},
    {ic:'t7',n:'Court of Appeal judgment'}]},
 ];
 const ICO={
@@ -30,7 +30,7 @@ const REWARDS=[{at:2,ic:'×2',tx:'buy item 2'},{at:3,ic:'×4',tx:'buy item 3'},
                {at:5,ic:ICO.coin,tx:'+60 credits'},{at:7,ic:ICO.cup,tx:'board won'}];
 const MULT=[{m:1,tier:0,mul:1},{m:2,tier:1,mul:1.8},{m:4,tier:2,mul:3.4}];
 /* ============================ QUESTIONS ============================
-   Every question checked against Neil's Law-vault on 25 July 2026.
+   Currency check: 26 July 2026. AGNI [2026] UKSC 16 applied throughout - see README.
    Correct answer is always index 0; options are shuffled at runtime.
    KEY CHANGE: Cheshire West and the "acid test" were set aside by
    AGNI [2026] UKSC 16 with effect from 2 June 2026. No grace period.
